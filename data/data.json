@@ -1,0 +1,18 @@
+{
+    
+ "data": [ 
+    {
+        "img":"https://fastly.picsum.photos/id/474/200/200.jpg?hmac=X5gJb746aYb_1-VdQG2Cti4XcHC10gwaOfRGfs6fTNk",
+         "name":"Comida 1"
+        },
+    {
+            "img":"https://fastly.picsum.photos/id/1076/200/200.jpg?hmac=KTOq4o7b6rXzwd8kYN0nWrPIeKI97mzxBdWhnn-o-Nc",
+             "name":"Comida 2"
+        },
+        {
+            "img":"https://fastly.picsum.photos/id/765/200/200.jpg?hmac=9zejtkA8_vjTeGNBqUBylUb3CoNHoPEFVUoLWpLMonQ",
+             "name":"Comida 3"
+        }
+ ] 
+
+}
