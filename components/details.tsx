@@ -17,9 +17,24 @@ import {
 
 
 export function Details(): React.JSX.Element {
-    return(
-        <View>
-            
-        </View>
-    )
+  return (
+    <View>
+      <View>
+        <ImageBackground>
+          <View>
+
+          </View>
+
+        </ImageBackground>
+      </View>
+      <View>
+
+      </View>
+    </View>
+  )
 }
+StyleSheet.create({
+  image: {
+
+  }
+})

@@ -28,18 +28,24 @@ const Stack = createStackNavigator();
 function App(): React.JSX.Element {
 
   return (
-    <SafeAreaView >
+    <SafeAreaView style={styles.backgroundApp}>
     <StatusBar/>
     <View>
       <Bar/>
     </View>
+    <View>
+    <Text style={[styles.headingColor,styles.text_trending]}> TRENDING</Text>
+    </View>
+    
     <ScrollView
       contentInsetAdjustmentBehavior="automatic"
+    
       horizontal={true}
       showsHorizontalScrollIndicator={false}
      >
+      
       <View style={{flexDirection:"row"}} >
-        <Text style={styles.headingColor}>TRENDING</Text>
+        
         {data.map((p)=>(
           <Card
           key={p.id}
@@ -47,12 +53,15 @@ function App(): React.JSX.Element {
           id={p.id}
           img={p.img}
           name={p.name}
-        
+          
           />
         ))}
       </View>
     </ScrollView>
-    <ScrollView  
+      <View >
+          <Text style={[styles.headingColor, styles.text_re]}> TRENDING</Text>
+      </View>
+    <ScrollView
       contentInsetAdjustmentBehavior="automatic"
       horizontal={true}
       showsHorizontalScrollIndicator={false} >
@@ -64,7 +73,7 @@ function App(): React.JSX.Element {
             id={p.id}
             img={p.img}
             name={p.name}
-          
+            
             />
           ))}
       </View>
@@ -77,14 +86,26 @@ function App(): React.JSX.Element {
 
 const styles = StyleSheet.create({
   backgroundApp:{
-    backgroundColor: "#262626"
+    backgroundColor: "#262626",
+    flex: 1
   },
   headingColor:{
     color:"#DA1971"
   },
-  text:{
-    color:"F5F5F5"
-  }
+  
+  text_trending:{
+    color:"F5F5F5",
+    marginTop:50,
+    fontSize:25,
+    position: 'absolute'
+  },
+  text_re:{
+    color:"F5F5F5",
+    marginTop: 50,
+    fontSize:25,
+    color:'#800080',
+    position: 'absolute'
+  },
 })
 
 export default App;

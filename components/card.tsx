@@ -39,7 +39,6 @@ export function Card({largo, ancho, img, name}: CardProps): React.JSX.Element {
         
     },
     card:{
-        marginTop:80,
         flex:1,
         alignContent:"center",
         justifyContent:"center",
