@@ -12,8 +12,11 @@ import {
   Image,
   TouchableOpacity,
   DimensionValue,
-  ImageSourcePropType
+  ImageSourcePropType,
+  ImageBackground
 } from 'react-native';
+
+
 
 
 export function Details(): React.JSX.Element {

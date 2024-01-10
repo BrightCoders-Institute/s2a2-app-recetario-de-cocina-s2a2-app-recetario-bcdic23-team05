@@ -49,10 +49,11 @@ export function Card({largo, ancho, img, name}: CardProps): React.JSX.Element {
       backgroundColor: "#262626"
     },
     headingColor:{
-      color:"#DA1971"
+      color:"#DA1971",
+      fontWeight: "bold"
     },
     text:{
-      color:"F5F5F5"
+      color:"white"
     }
   }
 )
@@ -61,7 +62,7 @@ export function Card({largo, ancho, img, name}: CardProps): React.JSX.Element {
         <View style={styles.imgContainer}>
             <Image source={{uri:img}}  style={styles.img}/>
         </View>
-        <Text>{name}</Text>
+        <Text style={styles.text}>{name}</Text>
       </TouchableOpacity>
     );
 }

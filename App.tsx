@@ -24,32 +24,42 @@ import { Details } from './components/details';
 import { useNavigation } from '@react-navigation/native';
 const Stack = createStackNavigator();
 
+{/* <NavigationContainer>
+        <Stack.Navigator>
+          <Stack.Screen
+          name='home'
+          component={}>
+
+          </Stack.Screen>
+        </Stack.Navigator>
+      </NavigationContainer> */}
 
 function App(): React.JSX.Element {
 
   return (
+
+    
     <SafeAreaView style={styles.backgroundApp}>
+      
     <StatusBar/>
     <View>
       <Bar/>
     </View>
-    <View>
-    <Text style={[styles.headingColor,styles.text_trending]}> TRENDING</Text>
-    </View>
-    
+   
     <ScrollView
       contentInsetAdjustmentBehavior="automatic"
-    
       horizontal={true}
       showsHorizontalScrollIndicator={false}
      >
-      
-      <View style={{flexDirection:"row"}} >
+      <View>
+    <Text style={[styles.headingColor,styles.text_trending]}> TRENDING</Text>
+    </View>
+      <View style={{flexDirection:"row",alignItems:"flex-start",marginTop:45 }} >
         
         {data.map((p)=>(
           <Card
           key={p.id}
-          largo ={100} ancho={100}
+          largo ={120} ancho={140}
           id={p.id}
           img={p.img}
           name={p.name}
@@ -58,14 +68,16 @@ function App(): React.JSX.Element {
         ))}
       </View>
     </ScrollView>
-      <View >
-          <Text style={[styles.headingColor, styles.text_re]}> TRENDING</Text>
-      </View>
+      
     <ScrollView
       contentInsetAdjustmentBehavior="automatic"
       horizontal={true}
       showsHorizontalScrollIndicator={false} >
-      <View style={{flexDirection:"row"}} >
+        <View >
+          <Text style={[styles.headingColor, styles.text_re]}> RECENT</Text>
+      </View>
+      <View style={{flexDirection:"row", alignItems:"flex-start", justifyContent:"center", marginTop:45}} > 
+      
         {data.map((p)=>(
             <Card
             key={p.id}
@@ -95,17 +107,19 @@ const styles = StyleSheet.create({
   
   text_trending:{
     color:"F5F5F5",
-    marginTop:50,
-    fontSize:25,
-    position: 'absolute'
-  },
-  text_re:{
-    color:"F5F5F5",
-    marginTop: 50,
+    marginTop:10,
     fontSize:25,
     color:'#800080',
     position: 'absolute'
   },
+  text_re:{
+    color:"F5F5F5",
+    fontSize:25,
+    color:'#800080',
+    position: 'absolute',
+    flex: 1
+  },
+  
 })
 
 export default App;
