@@ -30,12 +30,11 @@ const styles = StyleSheet.create({
     input:{
         height: 40,
         margin: 12,
-        borderWidth: 1,
         padding: 10,
-        borderRadius:13,
+        paddingLeft: 20,
+        borderRadius:10,
         backgroundColor: "#323233",
-        outlineStyle: 'none'
-    }
+       }
     })
 
 

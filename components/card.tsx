@@ -45,13 +45,6 @@ export function Card({largo, ancho, img, name}: CardProps): React.JSX.Element {
         textAlign:"center",
         marginHorizontal: 10
     },
-    backgroundApp:{
-      backgroundColor: "#262626"
-    },
-    headingColor:{
-      color:"#DA1971",
-      fontWeight: "bold"
-    },
     text:{
       color:"white"
     }
