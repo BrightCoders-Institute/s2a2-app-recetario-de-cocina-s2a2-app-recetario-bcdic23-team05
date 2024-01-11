@@ -30,19 +30,6 @@ import data from "../data/data.json";
       <View>
     <Text style={[styles.headingColor,styles.text_trending]}> TRENDING</Text>
     </View>
-      <View style={{flexDirection:"row",alignItems:"flex-start",marginTop:45 }} >
-        
-        {data.map((p)=>(
-          <Card
-          key={p.id}
-          largo ={120} ancho={140}
-          id={p.id}
-          img={p.img}
-          name={p.name}
-          
-          />
-        ))}
-      </View>
     </ScrollView>
       
     <ScrollView
