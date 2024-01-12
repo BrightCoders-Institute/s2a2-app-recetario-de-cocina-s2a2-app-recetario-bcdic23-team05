@@ -12,8 +12,10 @@ import {
   Image,
   TouchableOpacity,
   DimensionValue,
+  GestureResponderEvent,
   ImageSourcePropType
 } from 'react-native';
+
 
 interface CardProps {
   largo: DimensionValue;
@@ -21,12 +23,12 @@ interface CardProps {
   id:Number;
   img:String;
   name:String;
-  
+  onPress:() => void; 
 }
-export function Card({largo, ancho, img, name}: CardProps): React.JSX.Element {
+export function Card({largo, ancho, img, name,id, onPress}: CardProps): React.JSX.Element {
 
   
-  
+  const navigation = useNavigation()
   const styles = StyleSheet.create({
     img:{
         width:ancho,
@@ -46,12 +48,14 @@ export function Card({largo, ancho, img, name}: CardProps): React.JSX.Element {
         marginHorizontal: 10
     },
     text:{
-      color:"white"
+      color:"EEE9E1"
     }
   }
+
+  
 )
     return (
-      <TouchableOpacity style={styles.card}>
+      <TouchableOpacity style={styles.card} onPress={onPress}>
         <View style={styles.imgContainer}>
             <Image source={{uri:img}}  style={styles.img}/>
         </View>
