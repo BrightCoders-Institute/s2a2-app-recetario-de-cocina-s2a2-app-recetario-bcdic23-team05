@@ -1,6 +1,5 @@
 import React from 'react';
 import { useState } from 'react';
-import { useNavigation } from '@react-navigation/native';
 import {
   SafeAreaView,
   ScrollView,
@@ -24,11 +23,11 @@ interface CardProps {
   img:String;
   name:String;
   onPress:() => void; 
+  
 }
 export function Card({largo, ancho, img, name,id, onPress}: CardProps): React.JSX.Element {
 
   
-  const navigation = useNavigation()
   const styles = StyleSheet.create({
     img:{
         width:ancho,
@@ -48,7 +47,7 @@ export function Card({largo, ancho, img, name,id, onPress}: CardProps): React.JS
         marginHorizontal: 10
     },
     text:{
-      color:"EEE9E1"
+      color:"white"
     }
   }
 

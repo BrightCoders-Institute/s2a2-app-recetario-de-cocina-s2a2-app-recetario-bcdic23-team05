@@ -5,12 +5,16 @@
     "name":"Pepperoni Pizza",
     "servings": "Ingredients for 2 servings",
     "recipe":[
-        "Lorem ipsum    100 gr",
-        "Lorem ipsum    50 gr",
-        "Lorem ipsum    1/2 cup",
-        "Lorem ipsum    20 gr",
-        "Lorem ipsum    6 tsp",
-        "Lorem ipsum    60 ml"
+        "Lorem ipsum        100 gr",
+        "Lorem ipsum        50 gr",
+        "Lorem ipsum        1/2 cup",
+        "Lorem ipsum        20 gr",
+        "Lorem ipsum        6 tsp",
+        "Lorem ipsum        60 ml",
+        "Lorem ipsum        1/2 cup",
+        "Lorem ipsum        20 gr",
+        "Lorem ipsum        6 tsp",
+        "Lorem ipsum        60 ml"
     ]
         },
 
@@ -20,12 +24,17 @@
     "name":"Pesto Pasta",
     "servings": "Ingredients for 3 servings",
     "recipe":[
-        "Lorem ipsum    200 gr",
-        "Lorem ipsum    70 gr",
-        "Lorem ipsum    1 cup",
-        "Lorem ipsum    15 gr",
-        "Lorem ipsum    2 tsp",
-        "Lorem ipsum    120 ml"
+        "Lorem ipsum        200 gr",
+        "Lorem ipsum        70 gr",
+        "Lorem ipsum        1 cup",
+        "Lorem ipsum        15 gr",
+        "Lorem ipsum        2 tsp",
+        "Lorem ipsum        120 ml",
+        "Lorem ipsum        100 gr",
+        "Lorem ipsum        50 gr",
+        "Lorem ipsum        1/2 cup",
+        "Lorem ipsum        20 gr",
+        "Lorem ipsum        6 tsp"
     ]
      },
     {
@@ -34,12 +43,17 @@
     "name":"Pancakes",
     "servings": "Ingredients for 4 servings",
     "recipe":[
-        "Lorem ipsum    80 gr",
-        "Lorem ipsum    25 gr",
-        "Lorem ipsum    1/3 cup",
-        "Lorem ipsum    60 gr",
-        "Lorem ipsum    2 tsp",
-        "Lorem ipsum    120 ml"
+        "Lorem ipsum        80 gr",
+        "Lorem ipsum        25 gr",
+        "Lorem ipsum        1/3 cup",
+        "Lorem ipsum        60 gr",
+        "Lorem ipsum        2 tsp",
+        "Lorem ipsum        120 ml",
+        "Lorem ipsum        100 gr",
+        "Lorem ipsum        50 gr",
+        "Lorem ipsum        1/2 cup",
+        "Lorem ipsum        20 gr",
+        "Lorem ipsum        6 tsp"
     ]
         },
     {
@@ -48,12 +62,17 @@
     "name":"Cookies",
     "servings": "Ingredients for 2 servings",
     "recipe":[
-        "Lorem ipsum    50 gr",
-        "Lorem ipsum    120 gr",
-        "Lorem ipsum    1/2 cup",
-        "Lorem ipsum    250 gr",
-        "Lorem ipsum    3 tsp",
-        "Lorem ipsum    50 ml"
+        "Lorem ipsum        50 gr",
+        "Lorem ipsum        120 gr",
+        "Lorem ipsum        1/2 cup",
+        "Lorem ipsum        250 gr",
+        "Lorem ipsum        3 tsp",
+        "Lorem ipsum        50 ml",
+        "Lorem ipsum        100 gr",
+        "Lorem ipsum        50 gr",
+        "Lorem ipsum        1/2 cup",
+        "Lorem ipsum        20 gr",
+        "Lorem ipsum        6 tsp"
     ]
         },
     {
@@ -62,12 +81,17 @@
     "name":"Chicken nuggets",
     "servings": "Ingredients for 1 serving",
     "recipe":[
-        "Lorem ipsum    100 gr",
-        "Lorem ipsum    50 gr",
-        "Lorem ipsum    1/2 cup",
-        "Lorem ipsum    20 gr",
-        "Lorem ipsum    6 tsp",
-        "Lorem ipsum    60 ml"
+        "Lorem ipsum        100 gr",
+        "Lorem ipsum        50 gr",
+        "Lorem ipsum        1/2 cup",
+        "Lorem ipsum        20 gr",
+        "Lorem ipsum        6 tsp",
+        "Lorem ipsum        60 ml",
+        "Lorem ipsum        100 gr",
+        "Lorem ipsum        50 gr",
+        "Lorem ipsum        1/2 cup",
+        "Lorem ipsum        20 gr",
+        "Lorem ipsum        6 tsp"
     ]
         },
     {
@@ -76,12 +100,17 @@
     "name":"California sushi",
     "servings": "Ingredients for 5 servings",
     "recipe":[
-        "Lorem ipsum    40 gr",
-        "Lorem ipsum    120 gr",
-        "Lorem ipsum    1/3 cup",
-        "Lorem ipsum    60 gr",
-        "Lorem ipsum    3 tsp",
-        "Lorem ipsum    65 ml"
+        "Lorem ipsum        40 gr",
+        "Lorem ipsum        120 gr",
+        "Lorem ipsum        1/3 cup",
+        "Lorem ipsum        60 gr",
+        "Lorem ipsum        3 tsp",
+        "Lorem ipsum        65 ml",
+        "Lorem ipsum        100 gr",
+        "Lorem ipsum        50 gr",
+        "Lorem ipsum        1/2 cup",
+        "Lorem ipsum        20 gr",
+        "Lorem ipsum        6 tsp"
     ]
         },
     {
@@ -90,12 +119,17 @@
     "name":"Bacon Cheesburger",
     "servings": "Ingredients for 1 serving",
     "recipe":[
-        "Lorem ipsum    250 gr",
-        "Lorem ipsum    75 gr",
-        "Lorem ipsum    1/2 cup",
-        "Lorem ipsum    20 gr",
-        "Lorem ipsum    4 tsp",
-        "Lorem ipsum    25 ml"
+        "Lorem ipsum        250 gr",
+        "Lorem ipsum        75 gr",
+        "Lorem ipsum        1/2 cup",
+        "Lorem ipsum        20 gr",
+        "Lorem ipsum        4 tsp",
+        "Lorem ipsum        25 ml",
+        "Lorem ipsum        100 gr",
+        "Lorem ipsum        50 gr",
+        "Lorem ipsum        1/2 cup",
+        "Lorem ipsum        20 gr",
+        "Lorem ipsum        6 tsp"
     ]
         },
     {
@@ -104,12 +138,17 @@
     "name":"Lemon Pie",
     "servings": "Ingredients for 6 servings",
     "recipe":[
-        "Lorem ipsum    60 gr",
-        "Lorem ipsum    5 gr",
-        "Lorem ipsum    1/4 cup",
-        "Lorem ipsum    15 gr",
-        "Lorem ipsum    2 tsp",
-        "Lorem ipsum    80 ml"
+        "Lorem ipsum        60 gr",
+        "Lorem ipsum        5 gr",
+        "Lorem ipsum        1/4 cup",
+        "Lorem ipsum        15 gr",
+        "Lorem ipsum        2 tsp",
+        "Lorem ipsum        80 ml",
+        "Lorem ipsum        100 gr",
+        "Lorem ipsum        50 gr",
+        "Lorem ipsum        1/2 cup",
+        "Lorem ipsum        20 gr",
+        "Lorem ipsum        6 tsp"
     ]
         },
     {
@@ -118,12 +157,17 @@
     "name":"Salmon Garlic",
     "servings": "Ingredients for 1 serving",
     "recipe":[
-        "Lorem ipsum    80 gr",
-        "Lorem ipsum    20 gr",
-        "Lorem ipsum    1/3 cup",
-        "Lorem ipsum    165 gr",
-        "Lorem ipsum    1 tsp",
-        "Lorem ipsum    30 ml"
+        "Lorem ipsum        80 gr",
+        "Lorem ipsum        20 gr",
+        "Lorem ipsum        1/3 cup",
+        "Lorem ipsum        165 gr",
+        "Lorem ipsum        1 tsp",
+        "Lorem ipsum        30 ml",
+        "Lorem ipsum        100 gr",
+        "Lorem ipsum        50 gr",
+        "Lorem ipsum        1/2 cup",
+        "Lorem ipsum        20 gr",
+        "Lorem ipsum        6 tsp"
     ]
         },
     {
@@ -132,12 +176,17 @@
     "name":"Mexican eggs",
     "servings": "Ingredients for 2 servings",
     "recipe":[
-        "Lorem ipsum    150 gr",
-        "Lorem ipsum    40 gr",
-        "Lorem ipsum    1/2 cup",
-        "Lorem ipsum    15 gr",
-        "Lorem ipsum    2 tsp",
-        "Lorem ipsum    10 ml"
+        "Lorem ipsum        150 gr",
+        "Lorem ipsum        40 gr",
+        "Lorem ipsum        1/2 cup",
+        "Lorem ipsum        15 gr",
+        "Lorem ipsum        2 tsp",
+        "Lorem ipsum        10 ml",
+        "Lorem ipsum        100 gr",
+        "Lorem ipsum        50 gr",
+        "Lorem ipsum        1/2 cup",
+        "Lorem ipsum        20 gr",
+        "Lorem ipsum        6 tsp"
     ]
         }
 ]

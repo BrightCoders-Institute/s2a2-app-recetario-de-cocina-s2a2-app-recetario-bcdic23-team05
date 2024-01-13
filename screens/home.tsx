@@ -34,6 +34,7 @@ import { StackNavigationProp } from '@react-navigation/stack';
     img:String;
     name:String;
     onPress:() => void;
+    
   }
 
   const handlePress = (item:object) =>{
@@ -56,6 +57,7 @@ import { StackNavigationProp } from '@react-navigation/stack';
       img={item.img}
       name={item.name}
       onPress={() => handlePress(item)}
+      
       />
       )
 
@@ -77,17 +79,18 @@ import { StackNavigationProp } from '@react-navigation/stack';
       data={data}
       renderItem={NewrenderItem}
       horizontal={true}
+      
       />
     <View >
           <Text style={[styles.headingColor, styles.text_re]}> RECENT</Text>
       </View>
-      <View style={{flexDirection:"row", alignItems:"flex-start", justifyContent:"center", marginTop:45}} > 
+      
       <FlatList
       data={data}
       renderItem={renderItem}
       horizontal={true}
       />
-      </View>
+      
     
   </SafeAreaView>
     )
@@ -112,9 +115,9 @@ const styles = StyleSheet.create({
       fontSize:25,
       color:'#EB3D6F',
       position: 'absolute',
-      flex: 1
-    },
-    
+      
+      
+    }
   })
 
   export default Home
